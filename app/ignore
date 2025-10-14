@@ -1,13 +1,22 @@
-# Archivos generados por Android Studio/Gradle
-.gradle
-/local.properties
-/captures
-.DS_Store
-
-# Directorios generados
+# 1. Directorios de compilación y generados
 /build
 /app/build
+.gradle
+.idea/libraries/
 
-# Archivos de depuración y seguridad
+# 2. Propiedades de la máquina y SDK
+/local.properties
+.DS_Store
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+
+# 3. Archivos de debug y release
 *.apk
 *.aab
+*.iml
+
+# 4. Archivos de seguridad y logs
+/captures
+/crashlytics
+# /app/src/main/assets/keys.xml
